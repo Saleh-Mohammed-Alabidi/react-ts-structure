@@ -1,5 +1,5 @@
 import React from "react";
-import { IUser } from "../../api/usecase/users/IUserRespository";
+import { IUser } from "../../types/User";
 
 interface Props {
   users: IUser[];

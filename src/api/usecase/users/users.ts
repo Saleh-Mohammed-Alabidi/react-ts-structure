@@ -1,5 +1,6 @@
+import { IUser } from "../../../types/User";
 import UserRespository from "../../repository/user/users";
-import { IUser, IUserRespository } from "./IUserRespository";
+import { IUserRespository } from "./IUserRespository";
 
 export default class UsersUseCase  {
 

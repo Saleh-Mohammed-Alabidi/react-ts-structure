@@ -1,5 +1,6 @@
 import { useAxios } from "../../../plugins";
-import { IUser, IUserRespository } from "../../usecase/users/IUserRespository";
+import { IUser } from "../../../types/User";
+import { IUserRespository } from "../../usecase/users/IUserRespository";
 
 export default class UserRespository implements IUserRespository {
 

@@ -1,6 +1,6 @@
 import { createAsyncThunk, createSlice, PayloadAction } from "@reduxjs/toolkit";
-import { IUser } from "../../api/usecase/users/IUserRespository";
 import UsersUseCase from "../../api/usecase/users/users";
+import { IUser } from "../../types/User";
 
 interface Users {
   users: IUser[];
