@@ -1,4 +1,3 @@
-import { IUser } from "../../../types/User";
 
 
 export interface IUserRespository {

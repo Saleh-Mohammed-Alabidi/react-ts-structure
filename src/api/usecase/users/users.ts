@@ -1,4 +1,4 @@
-import { IUser } from "../../../types/User";
+
 import UserRespository from "../../repository/user/users";
 import { IUserRespository } from "./IUserRespository";
 

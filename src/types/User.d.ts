@@ -1,4 +1,4 @@
-export interface IUser {
+declare interface IUser {
     id: string;
     email: string;
     first_name: string;

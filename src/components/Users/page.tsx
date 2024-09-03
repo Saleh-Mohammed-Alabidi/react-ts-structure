@@ -1,5 +1,4 @@
 import React from "react";
-import { IUser } from "../../types/User";
 
 interface Props {
   users: IUser[];
